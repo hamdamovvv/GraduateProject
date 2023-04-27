@@ -1,2 +1,6 @@
 @import "zero.css";
 @import "fonts.css";
+
+.container {
+  padding: 100px;
+}

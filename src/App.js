@@ -1,15 +1,19 @@
 import {Provider} from "react-redux";
 import store from "./store/store";
-import {Main} from "./pages";
+import {Main, SignUp} from "./pages";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
 
     return (
         <div>
             <Provider store={store}>
-                <Main/>
-
-                
+               <BrowserRouter>
+                <Routes>
+                    <Route element={<SignUp/>} path='/signUp'/>
+                    <Route element={<Main/>} path='/'/>
+                </Routes>
+               </BrowserRouter>
             </Provider>
         </div>
     );
