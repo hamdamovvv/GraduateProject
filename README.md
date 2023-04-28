@@ -7,6 +7,6 @@
 ###### -когда закончили работать на своей команенте запуште в своей репоризиторий
 git add .
 git commit -m "commit"
-git pull origin master
+git pull origin dev
 git branch -M 'название вашего репозитория' пример Ahmad_dev
 git push origin 'название вашего репозитория' пример Ahmad_dev
