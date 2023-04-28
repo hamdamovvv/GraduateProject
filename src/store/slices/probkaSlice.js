@@ -6,7 +6,7 @@ const initialState = {
 
 const probkaSlice = createSlice({
     name: 'probkaSlice',
-    initialState:initialState,
+    initialState,
     reducers : {},
     extraReducers: {},
 })
