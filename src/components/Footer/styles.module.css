@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.FooterContainer{
+    background-color:#222222;
+    width:1440px ;
+    height:312px ;
+}
+
+
+.FooterText{
+font-family:Inter ;
+font-size: 22px;
+color:#FFFFFF;
+
+
+width: 417px;
+
+
+position: relative;
+right: -903px;
+top: 61px;
+justify-content: space-between;
+display: flex;
+}
+
+.FooterLogo{
+   justify-content: flex-start;
+   display: inline-block;
+
+   width: 200px;
+   height: 110px;
+    position: relative;
+    left: 120px;
+ 
+}
+
+.FutureImg{
+    width: 42px;
+    height: 42px;
+    background-color: white;
+    border-radius: 8px;
+
+    
+
+
+}
+
+.ComName{
+    width: 96px;
+height: 34px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+color: #FFFFFF;
+position: relative;
+    top: -38px;
+    left: 52px;
+
+
+}
+
+.LogoText{
+    width: 199px;
+    height: 61px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+     position: relative;
+     left: 120px;
+     top: -79px;
+    color: rgba(255, 255, 255, 0.6);;
+}
+
+
+
+.FooterHr{
+    width: 1200px;
+    height: 1px;
+    background-color: gray;
+    border: none;
+    position: relative;
+    top: -65px;
+}
+
+
+.FooterEmail{
+    position: relative;
+width: 287px;
+
+left: 1033px;
+margin-top: -40px;
+font-family: Inter;
+
+
+font-size: 22px;
+
+
+
+
+color: rgba(255, 255, 255, 0.6);
+}
