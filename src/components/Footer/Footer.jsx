@@ -6,9 +6,9 @@ import {Link} from "react-router-dom"
   return (
     <div className={classes.FooterContainer}>
         <div className={classes.FooterText}>
-<p><Link className={classes.FooterLink} to="/OCompany"  >о комнании</Link></p>
-    <p><Link className={classes.FooterLink} to="/Uslugi">услугии</Link></p>
-    <p><Link className={classes.FooterLink} to="/Disayneri">дизайнеры</Link></p>
+<p><Link className={classes.FooterLink} to={"/OCompany"}  >о комнании</Link></p>
+    <p><Link className={classes.FooterLink} to={"/Uslugi"}>услугии</Link></p>
+    <p><Link className={classes.FooterLink} to={"/Disayneri"}>дизайнеры</Link></p>
         </div>
     
    
