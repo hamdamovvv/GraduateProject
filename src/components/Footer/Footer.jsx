@@ -2,7 +2,7 @@ import React from 'react'
 import  "./styles.module.css"
 import classes from "./styles.module.css"
 
-export const Footer = () => {
+ const Footer = () => {
   return (
     <div className={classes.FooterContainer}>
         <div className={classes.FooterText}>
@@ -25,3 +25,4 @@ export const Footer = () => {
     </div>
   )
 }
+export default Footer
