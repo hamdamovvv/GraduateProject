@@ -6,9 +6,9 @@ export const Footer = () => {
   return (
     <div className={classes.FooterContainer}>
         <div className={classes.FooterText}>
-<p>о комнании</p>
-    <p>услугии</p>
-    <p>дизайнеры</p>
+<p><Link className={classes.FooterLink}>о комнании</Link></p>
+    <p><Link className={classes.FooterLink}>услугии</Link></p>
+    <p><Link className={classes.FooterLink}>дизайнеры</Link></p>
         </div>
     
    

@@ -10,7 +10,7 @@
 .FooterText{
 font-family:Inter ;
 font-size: 22px;
-color:#FFFFFF;
+
 
 
 width: 417px;
@@ -22,7 +22,10 @@ top: 61px;
 justify-content: space-between;
 display: flex;
 }
-
+.FooterLink{
+    text-decoration: none;
+    color:#FFFFFF;
+}
 .FooterLogo{
    justify-content: flex-start;
    display: inline-block;
