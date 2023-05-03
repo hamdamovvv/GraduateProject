@@ -4,6 +4,8 @@
     background-color:#222222;
     width:1440px ;
     height:312px ;
+   position: relative;
+   bottom: 0px;
 }
 
 
@@ -34,7 +36,7 @@ display: flex;
    height: 110px;
     position: relative;
     left: 120px;
- 
+   top: -10px;
 }
 
 .FutureImg{
@@ -42,7 +44,8 @@ display: flex;
     height: 42px;
     background-color: white;
     border-radius: 8px;
-
+    position: relative;
+    top: 38px;
     
 
 
@@ -59,7 +62,7 @@ font-size: 28px;
 line-height: 34px;
 color: #FFFFFF;
 position: relative;
-    top: -38px;
+   
     left: 52px;
 
 
@@ -76,7 +79,7 @@ position: relative;
     line-height: 19px;
      position: relative;
      left: 120px;
-     top: -79px;
+    top: -28px;
     color: rgba(255, 255, 255, 0.6);;
 }
 
@@ -88,7 +91,8 @@ position: relative;
     background-color: gray;
     border: none;
     position: relative;
-    top: -65px;
+    
+    left: 120px;
 }
 
 
@@ -97,10 +101,10 @@ position: relative;
 width: 287px;
 
 left: 1033px;
-margin-top: -40px;
+
 font-family: Inter;
 
-
+top: 30px;
 font-size: 22px;
 
 

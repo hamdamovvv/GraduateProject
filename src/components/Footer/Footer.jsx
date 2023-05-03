@@ -25,4 +25,4 @@ import {Link} from "react-router-dom"
     </div>
   )
 }
-export default Footer
+export default Footer 

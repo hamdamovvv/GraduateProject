@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Uslugi from "./pages/FooterPages/Uslugi";
 import Disayneri from "./pages/FooterPages/Disayneri";
 import OCompany from "./pages/FooterPages/OCompany";
+import DisaynerPage from "./pages/DisaynerPage/DisaynerPage";
 function App() {
 
     return (
@@ -17,6 +18,7 @@ function App() {
                     <Route element={<Uslugi/>} path='/Uslugi'/>
                     <Route element={<OCompany/>} path='/OCompany'/>
                     <Route element={<Disayneri/>} path='/Disayneri'/>
+                    <Route element={<DisaynerPage/>} path="/DisaynerPage"/>
                 </Routes>
                </BrowserRouter>
             </Provider>
