@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+header{
+   width: 1200px;
+   height: 100px;
+   font-family: Inter;
+   color: black;
+   margin-left: 120px;
+   margin-right: 120px;
+   position: relative;
+   top: 0px;
+   margin-bottom: -20px;
+   position: relative;
+}
+
+
+
+h2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 27px;
+position: relative;
+top: 25px;
+
+}
+
+.Logo{
+    display: flex;
+    margin-right: 20px;
+    width: 100px;
+    height: 45px;
+}
+.FutureLogo{
+    width: 139px;
+    height: 54px;
+
+margin-top: 5px;
+margin-left: -20px;
+margin-right: -30px;
+background-image: url('/src/assets/icons/logo_1_2\ 2.png');
+border-radius: 8px;
+
+}
+
+.links{
+    width: 330px;
+     height: 40px;
+    display: flex;
+    font-size: 16px;
+   position: relative;
+left: 125px;
+top: -27px;
+    justify-content: space-between;
+    padding: 10px 10px 10px 10px;
+  
+}
+
+
+.link{
+    color: black;
+}
+
+.search{
+       width: 377px;
+    height: 40px;
+    background: #E0E0E0;
+    border-radius: 8px;
+    border: 1px solid #E0E0E0;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+   position: absolute;
+   top: 19px;
+   left: 475px;
+   
+}
+.searchInput{
+
+    background-color: #E0E0E0;
+    border-radius: 8px;
+    border: 0px solid #E0E0E0;
+    width: 377px;
+    height: 40px;
+    padding-left: 18px;
+    padding-right: 94px;
+ 
+    color: #696969;
+ 
+    cursor: pointer;
+   
+
+
+}
+.searchInput:focus{
+    outline: none !important;
+}
+.searchIcon{
+    position: relative;
+    
+    width: 15px;
+height: 15px;
+left: 11px;
+    background-image: url("/src/assets/icons/magnifyingglass.png")
+}
+
+.buttons{
+    display: flex;
+     position: absolute;
+     top: 20px;
+     right: -60px;
+}
+
+.buttonFirst{
+
+
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 20px;
+
+
+width: 151px;
+height: 40px;
+
+border: 1px solid #000000;
+border-radius: 8px;
+
+font-family: 'Raleway';
+
+font-size: 16px;
+
+
+
+
+color: #000000;
+}
+
+.buttonSecond{
+
+margin-left:15px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 55px;
+
+width: 165px;
+height: 40px;
+
+
+
+background: #0E53B4;
+border-radius: 8px;
+
+font-family: 'Raleway';
+
+font-weight: 400;
+font-size: 16px;
+
+
+
+color: #FFFFFF;
+
+}

@@ -1,0 +1,268 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Raleway&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    margin-left: 120px;
+    margin-top: 240px;
+}
+
+.container{
+    
+
+
+
+padding: 20px;
+
+
+width: 1200px;
+height: 173px;
+
+
+
+border: 1px solid #A7AAB1;
+
+
+
+}
+
+
+.containerOtsiv{
+    width: 1200px;
+    height: 225px;
+
+
+
+
+
+border: 1px solid #A7AAB1;
+border-radius: 8px 8px 0px 0px;
+
+margin-bottom: 0px;
+ 
+}
+
+
+
+.numberOfOtsivov{
+       margin-top: 25px;
+    margin-left: 25px;
+}
+.numberOfOtsivov h1{
+    font-family: 'Raleway';
+
+font-weight: 400;
+font-size: 42px;
+
+
+
+margin-bottom: 10px;
+color: #000000;
+}
+
+
+.numberOfOtsivov ul {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.numberOfOtsivov h4{
+    font-family: 'Raleway';
+
+font-weight: 400;
+font-size: 28px;
+
+color: #141414;
+margin-right: 25px;
+}
+
+
+
+.numberOfOtsivov li{
+    
+font-family: 'Inter';
+
+font-weight: 500;
+font-size: 16px;
+
+
+color: rgba(0, 0, 0, 0.6);
+
+}
+
+
+
+
+.containerOtsiv hr{
+    width: 600px;
+height: 1px;
+margin-top: 20px;
+margin-bottom: 20px;
+
+}
+
+
+.containerOtsiv input{
+
+
+
+width: 1200px;
+height: 45px;
+padding: 15px;
+background: rgba(0, 59, 138, 0.2);
+border-radius: 100px;
+
+outline: none;
+border: none;
+
+
+font-family: 'Raleway';
+
+font-weight: 400;
+font-size: 14px;
+
+
+
+
+color: rgba(0, 0, 0, 0.5);
+
+}
+.userInfo{
+    display: flex;
+    
+width: 500px;
+height: 43px;
+align-items: center;
+}
+
+.userFoto{
+    width: 40px;
+    height: 40px;
+ background-image: url('/src/assets/icons/userFoto.png');
+    border-radius: 5000px;
+    margin-right: 25px;
+}
+
+
+.userInfo h3{
+
+
+    
+ 
+    
+    font-family: 'Raleway';
+
+    font-weight: 400;
+    font-size: 16px;
+
+    margin-left: 25px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    
+    /* Текст/80% черный */
+    
+    color: rgba(0, 0, 0, 0.7);
+    
+    
+
+    
+    flex: none;
+
+
+}
+.userMail{
+    gap: 5px;
+
+width: 166px;
+height: 43px;
+margin-top: -50px;
+}
+.userMail h2{
+    width: 166px;
+    
+    
+   
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+  
+    
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    
+    
+    color: rgba(0, 0, 0, 0.7);
+    
+    
+}
+.userMail p{
+    font-family: 'Raleway';
+
+font-weight: 400;
+font-size: 14px;
+
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+margin-top: 25px;
+
+color: rgba(0, 0, 0, 0.7);
+
+
+}
+
+
+
+
+
+
+.StarRating{
+    display: flex;
+    margin-top: 15px;
+}
+
+.StarRating p{
+    margin-left: 15px;
+    
+font-family: 'Inter';
+
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+
+
+
+color: rgba(0, 0, 0, 0.6);
+
+}
+
+
+.commentText{
+
+
+font-family: 'Raleway';
+
+font-weight: 400;
+font-size: 14px;
+
+margin-top: 15px;
+
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+color: #000000;
+
+}
+
+
+.dobavit{
+    margin-left: 1000px ;
+
+}

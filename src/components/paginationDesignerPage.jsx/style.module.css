@@ -1,0 +1,13 @@
+.imgPg{
+    width: 800px;
+height: 500px;
+margin-left: -24px;
+    background-image: url("/src/assets/images/dizajn-interera-bishkek\ 1.png") ;
+    border-radius: 8px;
+}
+
+.Pagination{
+    margin-left: 450px;
+    margin-top: 40px;
+  
+}

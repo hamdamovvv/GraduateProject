@@ -1,20 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter&family=Raleway&display=swap');
+
 
 *{
     padding: 0;
-    margin: 0;
+     margin: 0px;
     box-sizing: border-box;
-}
-header{
-    margin-bottom: 30px;
+    font-family: Raleway;
 }
 
+
 .pathTo{
-    width: 100%;
+    width: 1350px;
     height: 61px;
+     position: relative;
+     left: -120px;
     background-color:  #DAD7D766;
     ;
     display: flex;
+    
+ 
   
 }
 .pathToText{
@@ -23,183 +28,380 @@ header{
  width: 80%;
  display: flex;
  align-items: center;
+
 }
 
 
 .Link{
     
 
-font-family: Inter;
+
 margin-right: 9px;
 margin-left: 5px;
 
-font-size: 14px;
+font-size: 16px;
 
 text-decoration: none;
 color: rgba(0, 0, 0, 0.6);
 }
-.LinkActiv{
-    font-family: Inter;
+.LinkActive{
+    
     margin-right: 9px;
     margin-left: 5px;
     
-    font-size: 14px;
+    font-size: 16px;
     
     text-decoration: none;
-    color: rgba(0, 0, 0);
+    color: #072755;
+
+
+
+
+
+
 }
 
 .strela{
-    width: 10px;
-    height: 5px;
-    background-color: black;
+  width: 3px;
+  height: 3px;
+
+    border-radius: 5000px;
+      margin-right: 9px;
+
+  background-color: rgba(0, 0, 0, 0.6);
+
+
+}
+
+.strelaActive{
+  width: 3px;
+  height: 3px;
+
+background-color:  #072755;
+  border-radius: 5000px;
     margin-right: 9px;
-margin-left: 5px;
+
+
 }
 
 
-main{
-   margin-left: 120px;
-
-  width: 80%;
-}
 
 
-.FutureImg{
-    width:462px ;
-    height: 470px;
-    background-color: gray;
+
+
+
+.DisaynerContainer{
+
+padding: 25px 120px;
+
+margin-top: -40px;
+width: 1440px;
+height: 258px;
+
+position: relative;
+background: #072755;
 }
-.About{
-    position: relative;
-    top: -470px;
-    right: -492px;
-   
-}
-.profil{
-    height: 255px;
-    width: 600px;
-    gap: 15px;
-    padding-bottom: 25px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 25px;
-    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25);
-    border-radius: 8px;
+.Disayner{
+    height: 80px;
+width: 308px;
+
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    font-family: Inter;
 }
 
-.profil hr{
-    width: 530px;
+.DisaynerFoto{
+    width: 80px;
+    height: 80px;
+    border-radius: 5000px;
+    background-image: url("/src/assets/images/Ellipse\ 795.png");
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.disaynerName h2{
+font-family: 'Raleway';
+
+font-weight: 400;
+font-size: 28px;
+
+
+margin-bottom: 5px;
+
+color: #FFFFFF;
+
+
+
+}
+.rating{
+    margin-top: 30px;
+    height: 18px;
+    align-items: center;
+    display: flex;
+}
+
+.rating h3{
+    margin-right: 6.5px;
+ margin-top: -5px;
+    
+
+
+font-family: 'Raleway';
+font-weight: 600;
+font-size: 14px;
+
+
+
+
+
+color: #A7AAB1;
+
+
+
+}
+
+
+
+.disaynerType{
+    font-family: 'Raleway';
+
+font-weight: 500;
+
+
+
+
+color: #A7AAB1;
+}
+
+
+.buttons{
+    display: flex;
+    position: absolute;
+    top: 55px;
+    left: 565px;
+  
+    
+}
+
+
+
+
+
+.linkButton{
+    height: 54px;
+    width: 199.88499450683594px;
+    
+    padding: 15px 25px 15px 25px;
+    
+  }
+
+  .linkButtonSecond{
+    height: 54px;
+    width: 221px;
  
-    background-color: #000000B2;
-    height: 1px;
-}
-.profil h1{
-    font-size: 24px;
+    padding: 15px 25px 15px 25px;
+    
+  }
 
+  .linkButtonThird{
+    height: 54px;
+    width: 234px;
 
-color: rgba(0, 0, 0, 0.65);
-}
-
-.profil p{
-    font-size: 12px;
-
-
-
-
-color: rgba(0, 0, 0, 0.6);
-}
+    padding: 15px 25px 15px 25px;
+    
+  }
 
 
 
-.AboutMe{
-    height: 230px;
-    width: 600px;
-    gap: 15px;
-    padding-bottom: 25px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 25px;
-    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25);
-    border-radius: 8px;
+
+
+
+button {
+
+    
+
+    font: inherit;
+    
+    background: white;
+    border: 0.1em solid hsl(185, 53%, 34%);
+    border-radius: 100vw;
+    cursor: pointer;
+    transition: background-color 250ms;
+  
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    margin-right: 50px;
+  }
+  
+
+   .buttonContent{
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    font-family: Inter;
-    margin-top: 30px;
+    width: 200px;
+    height: 10px;
+    align-items: center;
+    
+   }
+
+  .buttonContent p{
+
+    font-family: 'Raleway';
+   
+    font-weight: 400;
+    font-size: 14px;
+ 
+ 
+
+    
+  
+    
+    background: linear-gradient(90deg, #0E53B4 0%, #2575FC 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    
+    
+  
+   
+  }
+
+
+  .buttonIcon{
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+  background-image: url('/src/assets/icons/WA_Logo.png');
+  }
+
+  .buttonIconSecond{
+    margin-right: 10px;
+    width: 25px;
+    height: 24px;
+  background-image: url('/src/assets/icons/Group.png');
+  }
+.buttonIconThirs{
+  margin-right: 10px;
+  width: 25px;
+  height: 24px;
+background-image: url('/src/assets/icons/gmail.png');
+}
+
+  .button:hover,
+  .button:focus-visible {
+    background: hsl(185, 53%, 34%);
+  }
+  
+  button > span {
+    position: absolute;
+    z-index: -1;
+    width: 33.333%;
+    height: 100%;
+  
+    background: transparent;
+    opacity: 0.5;
+  }
+  
+  button > :first-child {
+    left: 0;
+    top: 0;
+  }
+  
+  button > :last-child {
+    right: 0;
+    top: 0;
+  }
+  
+  button::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: hsl(200 60% 20%);
+    /* background: hotpink; */
+    width: 10%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    inset: 0;
+    margin: auto;
+    opacity: 0;
+  
+    transition: transform 1000ms 200ms, opacity 200ms;
+  }
+  
+  button:active::before {
+    transform: scale(20);
+    opacity: 1;
+  
+    transition: transform 1000ms, opacity 500ms;
+  }
+  
+  button:has(:first-child:active)::before {
+    margin-left: 0;
+  }
+  
+  button:has(:last-child:active)::before {
+    margin-right: 0;
+  }
+  
+  button:has(:first-child:active)::before,
+  button:has(:last-child:active)::before {
+    transition: transform 500ms, opacity 250ms;
+  }
+  
+
+
+
+
+
+
+
+.disaynerText{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 5px;
+
+width: 861px;
+height: 100px;
+margin-top: 20px;
+margin-left: 190px;
+}
+.disaynerText  h2{
+  font-family: 'Raleway';
+
+font-weight: 400;
+font-size: 28px;
+
+
+text-align: center;
+margin-bottom: 30px;
+
+
+color: #FAFDFE;
+
+
+}
+
+.disaynerText p{
+
+
+
+font-family: 'Raleway';
+
+font-weight: 400;
+font-size: 16px;
+line-height: 125%;
+
+
+text-align: center;
+
+color: rgba(255, 255, 255, 0.6);
+
 }
 
 
 
-.AboutMe h1{
-    font-size: 24px;
 
 
-color: rgba(0, 0, 0, 0.65);
-
-}
-
-.AboutMe hr{
-    width: 530px;
-    background-color: #000000B2;
-    height: 1px;
-}
-
-.Information{
-    height: 200px;
-    width: 600px;
-    gap: 15px;
-    padding-bottom: 25px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 25px;
-    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25);
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    font-family: Inter;
-    margin-top: 30px;
-}
-
-.Information h1{
-    font-size: 24px;
-
-
-color: rgba(0, 0, 0, 0.65);
-}
-
-.Information h4{
-    color: rgba(0, 0, 0, 0.65)
-
-}
-
-.infor{
-    display: flex;
-    gap: 35px;
-}
-
-.Number{
-    text-decoration: underline;
-    color:  rgba(0, 0, 0, 0.65);;
-}
-.Email{
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0.65);;
-}
-
-.social{
-    display: flex;
-    gap: 7px;
-}
-
-
-.Information hr{
-   width: 305px;
-   height: 1px;
-   color: rgba(0, 0, 0, 0.65);
+.footer{
+    margin-top: 180px;
 }
